@@ -27,7 +27,7 @@ export default function AboutMe() {
                 <div className="w-[400px] aspect-[10/16]">
                 <ImageHolder>
                         <h3 className="z-20 absolute bottom-10 w-full text-center font-HeroFont text-[5rem] select-none" data-value="João Paulo">João Paulo</h3>
-                        <img src="/eu2.jpg" className="select-none object-cover opacity-60 w-full h-full" />
+                        <img src="/Eu2.jpg" className="select-none object-cover opacity-60 w-full h-full" />
                 </ImageHolder>
                 </div>
             </div>
