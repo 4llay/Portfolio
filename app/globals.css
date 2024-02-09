@@ -18,10 +18,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: #0f172a;
 }
 
 *, html{
@@ -35,4 +32,82 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: #495670;
   border-radius: 10px;
+}
+
+.animateOnScroll{
+  opacity: 0;
+  filter:blur(5px);
+  transform: translateY(3%);
+  transition: all 0.7s;
+}
+
+.mostrar{
+  opacity: 1;
+  filter:blur(0);
+  transform: translateY(0);
+}
+
+#blob{
+  animation: gradientMove 80s infinite linear , rotate 15s infinite linear;
+  background-image: linear-gradient(to right, turquoise, darkorchid, gold, orangered, darkblue, white, violet, turquoise, darkorchid);
+  background-size: 4000px;
+  transition: all 5s;
+  z-index: -2;
+}
+
+.textShadow{
+  text-shadow: 0 0px 10px #000000;
+}
+
+.lines{
+  background-image: linear-gradient(
+    #3873d990,
+    #3873d990 2px,
+    transparent 2px,
+    transparent 9px
+    );
+    background-size: 100% 9px;
+  animation: pan-overlay 22s infinite linear;
+}
+
+.lines:hover{
+  background-image: linear-gradient(
+    #5eead595,
+    #5eead595 2px,
+    transparent 2px,
+    transparent 9px
+    );
+}
+
+@keyframes rotate {
+  from{
+    rotate: 0deg;
+  }
+
+  50%{
+    scale: 1 1.5;
+  }
+
+  to{
+    rotate: 360deg;
+  }
+}
+
+@keyframes gradientMove {
+  from{
+    background-position: 0;
+  }
+  to{
+    background-position: 100%;
+  }
+}
+
+@keyframes pan-overlay{
+  from{
+    background-position: 0 0;
+  }
+
+  to{
+    background-position: 0% -100%;
+  }
 }
