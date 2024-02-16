@@ -10,7 +10,7 @@ export default function SideMenu() {
                 <ul className="flex flex-col justify-center items-center text-[3rem] gap-14">
                     <li className="hover:scale-110 transition-all cursor-pointer font-HeroFont leading-[2.5rem] text-center">
                         <span className='text-teal-300'>01.</span>
-                        <a><h3 className='text-gray-300 hover:text-teal-300 ' data-value="SOBRE MIM">SOBRE MIM</h3></a>
+                        <a href='#about me'><h3 className='text-gray-300 hover:text-teal-300 ' data-value="SOBRE MIM">SOBRE MIM</h3></a>
                     </li>
                     <li className="hover:scale-110 transition-all cursor-pointer font-HeroFont leading-[2.5rem] text-center">
                         <span className='text-teal-300'>02.</span>
