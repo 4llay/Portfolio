@@ -9,7 +9,7 @@ export default function Experiences() {
                 <div className="w-full h-0 border-[1px] border-slate-300 opacity-60"></div>
             </div>
 
-            <div className="flex gap-[50px]">
+            <div className="flex flex-col gap-[50px] lg:flex-row">
                 <div className="w-[600px] aspect-[16/9]">
                     <ImageHolder>
                         <img className="w-full h-full object-cover opacity-60" src="Annes.jpg"></img>

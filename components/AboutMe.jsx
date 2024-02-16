@@ -4,12 +4,12 @@ export default function AboutMe() {
     return (
         <div className="flex flex-col textShadow">
             <div className="text-white flex items-center gap-24">
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 w-[40dvw]">
                     <div className="flex items-center gap-2 text-[2rem]">
                         <span className="text-teal-300 font-normal font-sans text-[1.5rem]">01.</span><h1 className="text-nowrap">Sobre Mim</h1>
                         <div className="w-full h-0 border-[1px] border-slate-300 opacity-60"/>
                     </div>
-                    <div className="w-[620px] text-[1.2rem] text-balance flex flex-col gap-8">
+                    <div className="text-[1.2rem] text-balance flex flex-col gap-8">
                         <p><span className="text-teal-300">OI!</span> Eu me chamo <span className="text-teal-300">João Paulo</span> e eu amo criar sites e jogos com os melhores efeitos e mecanicas que eu conseguir imaginar. Eu sempre tive esse interesse desde pequeno, sempre imaginando coisas que fariam os jogos que eu ja conhecia mais divertidos, mas so começei essa paixão em <span className="text-teal-300">2020</span> quando criei meu primeiro site <span className="text-teal-300">HTML!</span></p>
                         <p>Voltando aos dias atuais, eu ja tenho uma boa experiencia na <span className="text-teal-300">criação de websites</span> mas ainda tenho muito a que aprender, principalmente quando se trata de <span className="text-teal-300">banco de dados</span> ,_,</p>
                         <p>No momento estou buscando <span className="text-teal-300">oportunidades de trabalho </span> para ganhar <span className="text-teal-300"> experiencia </span> <span className="text-[.6rem]"> e dinheiro</span></p>
