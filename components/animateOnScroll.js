@@ -12,5 +12,3 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.animateOnScroll');
 hiddenElements.forEach((el) => observer.observe(el))
-
-
