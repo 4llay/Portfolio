@@ -14,7 +14,7 @@ export default function Home() {
       <NavBar />
 
       <a id="hero" />
-      <div suppressHydrationWarning className="flex items-center relative left-[15dvw] w-screen h-screen animateOnScroll">
+      <div suppressHydrationWarning className="flex justify-center items-center relative w-screen h-screen animateOnScroll">
         <HeroSection />
       </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
           </li>
           <li>
             <a href="https://wa.me/5548996306122" target="_blank">
-              <i class="fa-brands fa-whatsapp text-slate-200 text-[2.9rem] hover:text-teal-300 hover:scale-110 transition-all duration-500" aria-hidden="true"></i>
+              <i className="fa-brands fa-whatsapp text-slate-200 text-[2.9rem] hover:text-teal-300 hover:scale-110 transition-all duration-500" aria-hidden="true"></i>
             </a>
           </li>
           <li>

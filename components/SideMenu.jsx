@@ -3,7 +3,7 @@ export default function SideMenu() {
     return (
         <>
             <label className="hamburger-menu xl:hidden cursor-pointer fixed top-5 right-7 z-[70]">
-                <input type="checkbox" />
+                <input type="checkbox" id="menuCheckbox"/>
             </label>
 
             <nav className="sidebar w-full max-w-[420px] h-[100dvh] fixed z-[60] bg-slate-900 border-l-4 border-double transition-transform duration-500 flex xl:hidden justify-center right-0">
@@ -18,11 +18,11 @@ export default function SideMenu() {
                     </li>
                     <li className="hover:scale-110 transition-all cursor-pointer font-HeroFont leading-[2.5rem] text-center">
                         <span className='text-teal-300'>03.</span>
-                        <a><h3 className='text-gray-300 hover:text-teal-300' data-value="MEUS PROJETOS">MEUS PROJETOS</h3></a>
+                        <a href="#projetos"><h3 className='text-gray-300 hover:text-teal-300' data-value="MEUS PROJETOS">MEUS PROJETOS</h3></a>
                     </li>
                     <li className="hover:scale-110 transition-all cursor-pointer font-HeroFont leading-[2.5rem] text-center">
                         <span className='text-teal-300'>04.</span>
-                        <a><h3 className='text-gray-300 hover:text-teal-300' data-value="ME CONTATE">ME CONTATE</h3></a>
+                        <a href="#contato"><h3 className='text-gray-300 hover:text-teal-300' data-value="ME CONTATE">ME CONTATE</h3></a>
                     </li>
                     <li>
                         <div className='w-[210px] flex justify-center'>
@@ -31,7 +31,6 @@ export default function SideMenu() {
                     </li>
                 </ul>
             </nav>
-
         </>
     )
 }
